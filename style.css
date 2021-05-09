@@ -179,77 +179,77 @@ header {
     }
 
     .innovation p {
-        max-width: 350px;
+        max-width: 40%;
         margin: 0 auto;
     }
 
-.sv1 {
-    width: 50%;
-    max-width: 400px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+.step_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 5em;
 }
 
-    .sv1 img {
+    .step_4, .step_6 {
+        flex-direction: column;
+    }
+
+    .step_container img {
         width: 100%;
     }
 
-    .video_1 {
-        width: 54.6%;
-        position: absolute;
-        top: 10%;
-        left: 3.7%;
+    .step_container p {
+        max-width: 20%;
     }
 
-    .sv2 {
-        width: 100%;
+    .step_4 p, .step_6 p {
+        max-width: 50%;
+    }
+
+    .sv1 {
+        width: 35%;
+        max-width: 400px;
         position: relative;
     }
- 
-    
-.sv2 {
-    width: 80%;
-    max-width: 700px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
-    .sv2 img {
-        width: 100%;
+        .video_1 {
+            width: 54.6%;
+            position: absolute;
+            top: 10%;
+            left: 3.7%;
+        }
+
+    .sv2 {
+        width: 80%;
+        max-width: 700px;
+        position: relative;
     }
 
-    .video_2 {
-        width: 30.2%;
-        position: absolute;
-        top: 10%;
-        left: 67.2%;    
+        .video_2 {
+            width: 30.2%;
+            position: absolute;
+            top: 10%;
+            left: 67.2%;    
+        }
+
+    .sv3, .sv4, .sv5, .sv7 {
+        width: 80%;
+        max-width: 700px;
     }
 
-.sv3, .sv4, .sv5, .sv7 {
-    width: 80%;
-    max-width: 700px;
-}
+    .sv6 {
+        width: 80%;
+        max-width: 700px;
+        position: relative;
+    } 
 
-.sv6 {
-    width: 80%;
-    max-width: 700px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-    .sv6 img {
-        width: 100%;
-    }
-
-    .video_3 {
-        width: 21.8%;
-        position: absolute;
-        top: 13%;
-        left: 1.5%;       
-    }
+        .video_3 {
+            width: 21.8%;
+            position: absolute;
+            top: 13%;
+            left: 1.5%;       
+        }
 
 
 
