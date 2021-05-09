@@ -186,20 +186,15 @@ header {
     transform: translateX(-50%);
 }
 
-.sv1 svg {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate3d(-50%, 0, 0);
-    overflow: hidden;
-}
+    .sv1 img {
+        width: 100%;
+    }
 
 .video_1 {
-    width: 68px;
-    height: 200px;
+    width: 54%;
     position: absolute;
-    top: -22px;
-    left: 68px;
+    top: 34px;
+    left: 10px;
 }
 
 
